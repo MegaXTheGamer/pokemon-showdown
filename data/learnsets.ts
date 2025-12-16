@@ -27401,6 +27401,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			detect: ["9L17", "7L17", "6L17", "5L17", "4L17"],
 			doubleedge: ["9M"],
 			doubleteam: ["9L1", "7M", "7L1", "6M", "6L1", "5M", "5L1", "4M", "4L1"],
+			dracometeor: ["9L1"],
 			dreameater: ["7M", "6M", "5M", "4M"],
 			dualwingbeat: ["9M"],
 			endure: ["9M", "4M"],
@@ -27413,6 +27414,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gigaimpact: ["9M", "7M", "6M", "5M", "4M"],
 			headbutt: ["4T"],
 			hiddenpower: ["7M", "6M", "5M", "4M"],
+			hurricane: ["9L1"],
 			hyperbeam: ["9M", "7M", "6M", "5M", "4M"],
 			hypnosis: ["9L1"],
 			laserfocus: ["7T"],
@@ -93684,6 +93686,105 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{generation: 9, level: 88, nature: "Timid", moves: ["nastyplot", "toxic", "malignantchain", "shadowball"]},
 		],
 		eventOnly: true,
+	},
+	pythrost: {
+		learnset: {
+			tripleaxel: ["9L1"],
+			iciclecrash: ["9L1"],
+			gunkshot: ["9L1"],
+			recover: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	moliary: {
+		learnset: {
+			flamethrower: ["9L1"],
+			moonblast: ["9L1"],
+			drainingkiss: ["9L1"],
+			moonlight: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	inkovet: {
+		learnset: {
+			liquidation: ["9L1"],
+			darkpulse: ["9L1"],
+			darkestlariat: ["9L1"],
+			smokescreen: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	labizzard: {
+		learnset: {
+			dracometeor: ["9L1"],
+			heavyslam: ["9L1"],
+			dragondance: ["9L1"],
+			clawsofresurgence: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	hiddron: {
+		learnset: {
+			stealthrock: ["9L1"],
+			reflect: ["9L1"],
+			whirlwind: ["9L1"],
+			spikes: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	chaella: {
+		learnset: {
+			bravebird: ["9L1"],
+			thunderbolt: ["9L1"],
+			healorder: ["9L1"],
+			drillpeck: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	copposerp: {
+		learnset: {
+			firefang: ["9L1"],
+			coil: ["9L1"],
+			snaptrap: ["9L1"],
+			siphon: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	pegasteam: {
+		learnset: {
+			ironhead: ["9L1"],
+			moonblast: ["9L1"],
+			psychic: ["9L1"],
+			protect: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	markour: {
+		learnset: {
+			earthquake: ["9L1"],
+			headbutt: ["9L1"],
+			swordsdance: ["9L1"],
+			protect: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	dujualitarde: {
+		learnset: {
+			trickroom: ["9L1"],
+			aquacutter: ["9L1"],
+			heatcrash: ["9L1"],
+			obsidianshield: ["9L1"],
+			return: ["9L1"],
+		},
+	},
+	cryuck: {
+		learnset: {
+			iciclespear: ["9L1"],
+			toxic: ["9L1"],
+			iciclecrash: ["9L1"],
+			poisonjab: ["9L1"],
+			return: ["9L1"],
+		},
 	},
 	syclar: {
 		learnset: {

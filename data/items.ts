@@ -7639,6 +7639,19 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	yanmegite: {
+		name: "Yanmegite",
+		spritenum: 67000,
+		megaStone: "Yanmega-Mega",
+		megaEvolves: "Yanmega",
+		itemUser: ["Yanmega"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 67000,
+		gen: 9,
+	},
 	victreebelite: {
 		name: "Victreebelite",
 		spritenum: 545,
